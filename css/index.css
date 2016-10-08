@@ -1,0 +1,38 @@
+/*#header {*/
+    /*background: url(../img/banner6.jpg);*/
+    /*font-family: "webfont";*/
+    /*font-size: 2rem;*/
+    /*height: 357px;*/
+    /*text-transform: capitalize;     !*单词首字母大写  *!*/
+    /*transform: translateX(-50%);    !* 未知宽高时居中，注意浏览器兼容问题要写多遍*!*/
+/*}*/
+/***header开始******/
+#header{
+    background: url(../img/banner6.jpg);
+    height: 35.5rem;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    display: -webkit-box;
+    box-orient:horizontal;
+    color:#fff;
+    font-family: "webfont";
+    min-width: 46rem;
+}
+#header-left,#header-right{
+    text-align: center;
+    -webkit-box-flex: 1;
+}
+#header-left img{
+    margin-top:8rem;
+}
+#header-left h1,p{
+    padding-top: 2rem;
+}
+#header-right h1{
+    margin-top: 8rem;
+}
+#header-right p{
+    padding-top:6rem;
+}
+/***header结束******/
+
